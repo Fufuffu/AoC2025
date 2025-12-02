@@ -15,7 +15,6 @@ main :: proc() {
 	rotations := strings.split_lines(transmute(string)data)
 	fmt.println("The password (part1) is:", part1(rotations))
 	fmt.println("The password (part2) is:", part2(rotations))
-	os2.exit(1)
 }
 
 part1 :: proc(rotations: []string) -> int {
